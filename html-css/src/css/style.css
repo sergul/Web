@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+}
+
+.center-hor {}
+
+.menu-item {
+    cursor: pointer;
+}
+
+
+.menu-container {
+    text-align: center;
+}
+
+.menu-body-toggle {
+    display: none;
+}
+
+.center-hor:hover+.menu-body-toggle {
+    display: block;
+}
